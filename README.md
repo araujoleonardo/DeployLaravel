@@ -33,21 +33,31 @@ cd domains`
 
 10. Você verá seus dominios disponíveis.
 11. Acesse a pasta do dominio que deseja usar.</br></br>
-`cd meu-dominio`
+```
+cd meu-dominio
+```
 
 12. Clone o resitorio do github para a pasta.</br></br>
-`git clone repositorio-do-github`
+```
+git clone repositorio-do-github
+```
 
-13. Acesse a pasta do repositorio clonado.</br></br>
-`cd meu-site`
+14. Acesse a pasta do repositorio clonado.</br></br>
+```
+cd meu-site
+```
 
-14. Cria uma copia do arquivo .env.example.</br></br>
-`cp .env.example .env`
+16. Cria uma copia do arquivo .env.example.</br></br>
+```
+cp .env.example .env
+```
 
 14. Abra o arquivo .env criado.</br></br>
-`vim .env`
+```
+vim .env
+```
 
-15. Altere as linhas necessárias.</br></br>
+16. Altere as linhas necessárias.</br></br>
 ```
 APP_NAME=nome do projeto
 APP_ENV=production
