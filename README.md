@@ -42,17 +42,17 @@ cd meu-dominio
 git clone repositorio-do-github
 ```
 
-14. Acesse a pasta do repositorio clonado.</br></br>
+13. Acesse a pasta do repositorio clonado.</br></br>
 ```
 cd meu-site
 ```
 
-16. Cria uma copia do arquivo .env.example.</br></br>
+14. Cria uma copia do arquivo .env.example.</br></br>
 ```
 cp .env.example .env
 ```
 
-14. Abra o arquivo .env criado.</br></br>
+15. Abra o arquivo .env criado.</br></br>
 ```
 vim .env
 ```
