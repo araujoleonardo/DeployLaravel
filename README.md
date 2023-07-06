@@ -69,4 +69,38 @@ DB_USERNAME=nome de usuário gerado no painel
 DB_PASSWORD=senha criada no painel
 ```
 
-16. Saia do aeditor e salve as alterações.</br></br>
+Saia do editor e salve as alterações.</br></br>
+
+17. Instale todas as dependências do laravel.</br></br>
+```
+composer install --no-dev
+```
+
+18. Faça a migração de todas as tabelas do banco.</br></br>
+```
+php artisan migrate
+```
+Você será perguntado se realmente deseja fazer a migração em abiente de produção</br>
+Confirme a operação</br></br>
+
+19. Defina a APP_KEY do arquivo .env .</br></br>
+```
+php artisan key:generate
+```
+
+20. Volte para a pasta anteriorpara visualizar a pasta `meu-site` e a `public_html` .</br></br>
+```
+cd ..
+```
+
+21. Remova a pasta public_html e todos os seus arquivos.</br></br>
+```
+rm -Rf public_html
+```
+
+22. Agora crie um link simbólido para seu projeto.</br></br>
+```
+ln -s meu-site/public/ public_html
+```
+
+Com isso você ja irá conseguir acessar seu site...
